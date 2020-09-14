@@ -1,13 +1,10 @@
 import React from 'react';
+import Counter from "./Components/Counter";
 
 function App() {
-
-  const msg = 'this is a text in react';
-
   return (
     <>
-      <h1>Hello word</h1>
-      <p>{ msg }</p>
+      <Counter value={2}/>
     </>
   );
 }
