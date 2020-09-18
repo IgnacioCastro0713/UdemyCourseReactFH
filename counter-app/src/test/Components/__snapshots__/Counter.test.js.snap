@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el <Counter /> debe de mostrar <Counter /> correctamente 1`] = `
+<div>
+  <h1>
+    Counter App
+  </h1>
+  <h2>
+    10
+  </h2>
+  <button
+    onClick={[Function]}
+  >
+     +
+  </button>
+  <button
+    onClick={[Function]}
+  >
+     -
+  </button>
+  <button
+    onClick={[Function]}
+  >
+     reset
+  </button>
+</div>
+`;
+
+exports[`Pruebas en el <Counter /> should show <Counter /> correctly 1`] = `
+<div>
+  <h1>
+    Counter App
+  </h1>
+  <h2>
+    10
+  </h2>
+  <button
+    onClick={[Function]}
+  >
+     +
+  </button>
+  <button
+    onClick={[Function]}
+  >
+     -
+  </button>
+  <button
+    onClick={[Function]}
+  >
+     reset
+  </button>
+</div>
+`;
+
+exports[`Tests <Counter /> should show <Counter /> correctly 1`] = `
+<div>
+  <h1>
+    Counter App
+  </h1>
+  <h2>
+    10
+  </h2>
+  <button
+    onClick={[Function]}
+  >
+     +
+  </button>
+  <button
+    onClick={[Function]}
+  >
+     -
+  </button>
+  <button
+    onClick={[Function]}
+  >
+     reset
+  </button>
+</div>
+`;

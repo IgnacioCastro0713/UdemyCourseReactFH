@@ -11,7 +11,7 @@ function Counter({ value }) {
   return (
     <div>
       <h1>Counter App</h1>
-      <h3>{ counter }</h3>
+      <h2>{ counter }</h2>
       <button onClick={ handleAdd }> +</button>
       <button onClick={ handleRemove }> -</button>
       <button onClick={ handleReset }> reset</button>
@@ -24,7 +24,7 @@ Counter.propTypes = {
 };
 
 Counter.defaultProps = {
-  value: 0
+  value: 10
 };
 
 export default Counter;
